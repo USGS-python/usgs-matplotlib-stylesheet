@@ -1,0 +1,67 @@
+### AXES
+# default face and edge color, default tick sizes,
+# default fontsizes for ticklabels, and so on.  See
+# http://matplotlib.org/api/axes_api.html#module-matplotlib.axes
+#axes.labelsize      : 9  # fontsize of the x any y labels
+
+### LINES
+# See http://matplotlib.org/api/artist_api.html#module-matplotlib.lines for more
+# information on line properties.
+lines.linewidth : 1
+lines.markersize : 3
+lines.markeredgewidth : 0.5
+
+### TICKS
+xtick.bottom         : True   # draw ticks on the bottom side
+xtick.major.size     : 4      # major tick size in points
+xtick.minor.size     : 2      # minor tick size in points
+xtick.direction      : in     # direction: in, out, or inout
+
+ytick.major.size     : 4      # major tick size in points
+ytick.minor.size     : 2      # minor tick size in points
+ytick.direction      : in     # direction: in, out, or inout
+
+### SAVING FIGURES
+# In order to export a plot to Adobe Illustrator, you must use *editable* text.
+# By default matplotlib exports "Type 3 fonts", which Illustrator doesn't understand, so you need to change matplotlib to export *Type 2/TrueType fonts*.
+pdf.fonttype : 42
+ps.fonttype : 42
+
+### FONT
+font.family         : sans-serif
+font.style          : normal
+font.variant        : normal
+font.weight         : medium
+font.stretch        : condensed
+#ultra-, extra-, semi- with condensed, normal, or expanded
+
+# note that font.size controls default text sizes.  To configure
+# special text sizes tick labels, axes, labels, title, etc, see the rc
+# settings for axes and ticks. Special text sizes can be defined
+# relative to font.size, using the following values: xx-small, x-small,
+# small, medium, large, x-large, xx-large, larger, or smaller
+#font.size           : 10.0
+font.serif          : DejaVu Serif, Bitstream Vera Serif, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
+#font.sans-serif     : DejaVu Sans, Bitstream Vera Sans, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+#font.cursive        : Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, cursive
+#font.fantasy        : Comic Sans MS, Chicago, Charcoal, Impact, Western, Humor Sans, xkcd, fantasy
+#font.monospace      : DejaVu Sans Mono, Bitstream Vera Sans Mono, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+
+### FIGURE
+# See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
+figure.figsize   : 3.4, 3.4   # figure size in inches
+figure.dpi       : 150      # figure dots per inch
+#figure.autolayout : False  # When True, automatically adjust subplot
+                            # parameters to make the plot fit the figure
+
+# The figure subplot parameters.  All dimensions are a fraction of the
+#figure.subplot.left    : 0.125  # the left side of the subplots of the figure
+#figure.subplot.right   : 0.9    # the right side of the subplots of the figure
+#figure.subplot.bottom  : 0.11    # the bottom of the subplots of the figure
+#figure.subplot.top     : 0.88    # the top of the subplots of the figure
+#figure.subplot.wspace  : 0.2    # the amount of width reserved for blank space between subplots,
+                                 # expressed as a fraction of the average axis width
+#figure.subplot.hspace  : 0.2    # the amount of height reserved for white space between subplots,
+                                 # expressed as a fraction of the average axis height
+
+### LEGEND
