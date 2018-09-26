@@ -20,7 +20,7 @@ plt.style.use('usgs')
 
 Contributions
 -------------
-This stylesheet is neither comprehensive and may not adhere to some USGS standards. Your contributions are welcome, as long as they conform to USGS graphics standards.
+This stylesheet is neither comprehensive nor does it adhere precisely to some USGS graphics standards. Your contributions and comments are welcome, as long as they conform to USGS graphics standards.
 
 Resources 
 ---------
